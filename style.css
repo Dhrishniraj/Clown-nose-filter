@@ -1,0 +1,21 @@
+h3{
+    font-size: 25px !important;
+}
+#take_snapshot:hover{
+    background-color: red !important;
+    border-color: red !important;
+}
+canvas{
+    border-color: black;
+    border-width: 2px;
+    animation-name: my_animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes my_animation{
+    0%{box-shadow: 3px 3px 10px orange;}
+    25%{box-shadow: 4px 4px 11px white;}
+    50%{box-shadow: 5px 5px 12px green;}
+    75%{box-shadow: 4px 4px 11px white;}
+    100%{box-shadow: 3px 3px 10px orange;}
+}
